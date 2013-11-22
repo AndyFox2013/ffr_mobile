@@ -1,0 +1,41 @@
+*{
+margin: 2px;
+Padding: 0px;
+border: 0px;
+list-style:none;
+font-size:100%;
+font:inherit;
+vertical-align: baseline;
+}
+
+body{
+background-color: #FFF;
+}
+
+#container{
+background-color: #345;
+width: 100%;
+margin: 0 auto;
+height: 1000px;
+}
+
+#header{
+position: relative;
+background-image: url('../images/carbon-bg.jpg');
+height: 100px;
+}
+
+#logo{
+position: relative;
+height: 100%;
+}
+
+#title{
+position: relative;
+float: right;
+margin-top: -70px;
+}
+
+h3{
+font-size: 32px;
+}
