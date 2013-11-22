@@ -1,11 +1,4 @@
 <! DOCTYPE html>
-<html>
-	<head>
-	<title>Forfar Road Runners</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-	<link rel="stylesheet" href="stylesheets/styles.css">
-	<link rel="stylesheet" href="stylesheets/menu.css">
-	
 	<?php
 	var isMobile = {
 		Android: function() {
@@ -31,10 +24,20 @@
 		if(isMobile.any()){
 			//header('Location: mobile/index.html');
 			if( isMobile.any() ) alert('Mobile');
+			echo mobile
 		} else {
 			// Not mobile
 		}
 	?>
+	
+<html>
+	<head>
+	<title>Forfar Road Runners</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	<link rel="stylesheet" href="stylesheets/styles.css">
+	<link rel="stylesheet" href="stylesheets/menu.css">
+	
+
 	</head>
 	
 	<body><div id="container">
