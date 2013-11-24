@@ -7,6 +7,7 @@
 
 }
 .menu {
+z-index: 2;
 position: relative;
 width: 99%;
 height: 75px;
