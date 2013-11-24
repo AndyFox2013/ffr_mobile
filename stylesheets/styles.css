@@ -39,3 +39,8 @@ margin-top: -70px;
 h3{
 font-size: 32px;
 }
+
+button{
+margin: auto;
+background-color: grey;
+}
