@@ -55,7 +55,7 @@ border-bottom-right-radius: 10px;
 
 #textbox{
 z-index: 1;
-border: solid 1px white;
+border: dotted 1px white;
 text-align: centre;
 color: white;
 }
