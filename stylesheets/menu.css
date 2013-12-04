@@ -22,9 +22,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db9e8', end
 border-top: 2px solid #2E9AFE;
 border-top-left-radius: 10px;
 border-top-right-radius: 10px;
+}
+
+.menuoptions{
 
 }
-.menu:after,
+/*.menu:after,
 .menu ul:after {
   content: '';
   display: block;
@@ -136,4 +139,4 @@ border-top-right-radius: 10px;
 }
 .menu .has-sub .has-sub ul li a:hover {
   background: #b30000;
-}
+}*/

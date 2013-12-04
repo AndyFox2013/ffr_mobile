@@ -7,6 +7,8 @@
 	<link rel="stylesheet" href="stylesheets/styles.css">
 	<link rel="stylesheet" href="stylesheets/menu.css">
 	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	
 		<script>
 		$(document).ready(function(){
 			$("button").click(function(){
@@ -28,21 +30,17 @@
 			</div>
 		</div>	
 		
-		<div class="menu">
-			<ul>
-				<li class='has-sub'><a><span>Menu</span></a>
-			<ul>
-				<li><a href='index.html'>Home</span></a>
-				<li><a href='races.html'><span>Races</span></a>
-				<li><a href='runs.html'>Runs</span></a>
-				<li><a href='news.html'>News</span></a>
-				<li><a href='gallery.html'>Photos</span></a>
-				</li>
-			</ul>
-			</ul>
+		<div id="races">
+				<button>Menu</button>
+			<div id="textbox">
+				<li><a href='index.html'>Home</a>
+				<li><a href='races.html'>Races</a>
+				<li><a href='runs.html'>Runs</a>
+				<li><a href='news.html'>News</a>
+				<li><a href='gallery.html'>Photos</a></li>
+			</div>
+			
 		</div>
-		
-		<a href='togglemenu.html'>Toggle menu</a>
 	
 	</div></body>
 
