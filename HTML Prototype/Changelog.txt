@@ -1,0 +1,4 @@
+Changelog Design 3:
+
+Switch to Slide Push Menu, for better use of the on screen space
+Redesign to a more block styled theme to fit in with the menu
