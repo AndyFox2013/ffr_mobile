@@ -1,0 +1,73 @@
+<! DOCTYPE html>
+	
+<html>
+	<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Forfar Road Runners: Home</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+	<link rel="stylesheet" href="stylesheets/styles.css">
+	
+	<link rel="stylesheet" type="text/css" href="stylesheets/default.css" />
+	<link rel="stylesheet" type="text/css" href="stylesheets/component.css" />
+	
+	<body class="cbp-spmenu-push"><div id="container">
+		<nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s1">
+			<a href="index.html">Home</a>
+			<a href="#">News</a>
+			<a href="#">Photos</a>
+			<a href="races.html">Races</a>
+			<a href="#">Runs</a><br/>			
+			<p></p>
+			
+			<div id="spmenulogo"><p align="center"><img src="images/logo.png" height="100px" width="100px"/></p><br/>
+			
+			<iframe src="http://free.timeanddate.com/clock/i3xmdjih/n136/tluk/fn5/fs15/fc222/tct/pct/ftb/tt1/tw1" frameborder="0" width="200" height="20" allowTransparency="true"></iframe>
+			
+			</div>
+		</nav>
+		
+		
+	
+		<div id="header">
+			<div id="logo">
+				<button id="showLeft"><h3>Menu</h3></button>
+			</div>
+			
+			<div id="title">
+				<h3>Forfar Road Runners</h3>
+			</div>
+		</div>
+			
+			<div id="pagetitle"><h1>Welcome to the Forfar Road Runners Website</h1></div><br/>
+		<hr>
+		<br/>
+		<div id="back">
+			<button onclick="location.href='races.html'">Back to overview</button>
+		</div>
+		
+		
+			<script src="js/classie.js"></script>
+		<script>
+			var menuLeft = document.getElementById( 'cbp-spmenu-s1' ),
+				showLeft = document.getElementById( 'showLeft' ),
+				body = document.body;
+
+			showLeft.onclick = function() {
+				classie.toggle( this, 'active' );
+				classie.toggle( menuLeft, 'cbp-spmenu-open' );
+				disableOther( 'showLeft' );
+			};
+
+
+			function disableOther( button ) {
+				if( button !== 'showLeft' ) {
+					classie.toggle( showLeft, 'disabled' );
+				}
+			}
+		</script>
+		
+		</body>
+
+</html>

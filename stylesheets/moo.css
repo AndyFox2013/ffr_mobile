@@ -1,0 +1,24 @@
+.toggler { 
+cursor:pointer; 
+font-weight:bold; 
+color:#000; 
+margin: 0; 
+padding:5px; 
+font-size:18px; 
+text-align: center;
+font-family:Arial, sans-serif; 
+text-decoration: underline;
+}
+
+.toggler:hover{ 
+background: rgba(106, 185, 221, 0.38);
+width: 60%;
+margin: auto;
+}
+
+.element{
+padding: 5px 5px;
+color: black;
+text-align: center;
+font-family: Comic Sans MS; 
+}
