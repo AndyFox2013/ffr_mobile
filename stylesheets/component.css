@@ -3,6 +3,8 @@
 	background: #47a3da;
 	position: fixed;
 	padding: 0px 0;
+	border-right: 1px solid black;
+	border-top: 1px solid black;
 }
 
 .cbp-spmenu a {
@@ -14,6 +16,7 @@
 
 .cbp-spmenu a:hover {
 	background: #258ecd;
+	border-top-right-radius: 10px;
 }
 
 .cbp-spmenu a:active {
@@ -28,12 +31,12 @@
 	height: 100%;
 	margin-top: 75px;
 	z-index: 1000;
+	border-top-right-radius: 10px;
 }
 
 #spmenulogo{
-position: relative;
-width: 180px;
-margin-left: -10px;
+	position: relative;
+	width: 180px;
 }
 
 .cbp-spmenu-vertical a {
@@ -89,13 +92,5 @@ margin-left: -10px;
 	.cbp-spmenu-left,
 	.cbp-spmenu-push-toleft {
 		left: -190px;
-	}
-
-	.cbp-spmenu-right {
-		right: -190px;
-	}
-
-	.cbp-spmenu-push-toright {
-		left: 190px;
 	}
 }
