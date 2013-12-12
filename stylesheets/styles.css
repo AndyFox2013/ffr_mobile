@@ -121,6 +121,12 @@ border-top-right-radius: 4px;
 border-bottom-right-radius: 10px;
 border-bottom-left-radius: 4px;
 width: 100%;
+background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0, #46BAEB),
+	color-stop(1, #62FFFF));
 background-image: -o-linear-gradient(left, #46BAEB 70%, #62FFFF 100%);
 background-image: -moz-linear-gradient(left, #46BAEB 70%, #62FFFF 100%);
 background-image: -webkit-linear-gradient(left, #46BAEB 70%, #62FFFF 100%);
