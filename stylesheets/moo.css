@@ -2,12 +2,13 @@
 cursor:pointer; 
 font-weight:bold; 
 color:#000; 
-margin: 0; 
+margin: auto; 
 padding:5px; 
 font-size:18px; 
 text-align: center;
 font-family:Arial, sans-serif; 
 text-decoration: underline;
+width: 60%;
 }
 
 .toggler:hover{ 
