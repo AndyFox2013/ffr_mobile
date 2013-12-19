@@ -60,7 +60,7 @@
 	}
 }
 
-@media screen and (oreientation : landscape){
+@media screen and (orientation : landscape){
 	.cbp-spmenu {
 		background-color: red;
 	}
