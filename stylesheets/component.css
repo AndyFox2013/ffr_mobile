@@ -27,9 +27,9 @@
 /* Orientation-dependent styles for the content of the menu */
 
 .cbp-spmenu-vertical {
-	width: 205px;
+	width: 40%;
 	height: 100%;
-	margin-top: 75px;
+	margin-top: 20%;
 	z-index: 1000;
 	border-top-right-radius: 10px;
 }
